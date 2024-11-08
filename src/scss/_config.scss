@@ -1,0 +1,22 @@
+/* Colors */
+
+$primary-color: #e05454;
+$secondary-color: #7f1f1f;
+$text-color: #fff;
+$button-color: #51E08A;
+$button-hover: #3ead6a;
+
+/* Fonts */
+
+$font-title: "Peralta", serif;
+$font-body: "Poppins", sans-serif;
+
+
+/* mixins */
+
+@mixin flex-center-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

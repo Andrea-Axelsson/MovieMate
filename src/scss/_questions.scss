@@ -1,0 +1,54 @@
+.questions__text{
+    font-size: 1rem;
+    color: $text-color;
+    margin-bottom: .625em;
+}
+
+.questions__form{
+    margin: 20px 0;
+}
+
+.questions__textarea{
+    background: $primary-color;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1.25em;
+    padding: .625rem;
+    color: $text-color;
+    font-size: .875rem;
+}
+
+.questions__textarea::placeholder{
+    font-size: .875rem;
+    color: $secondary-color;
+}
+
+.questions__checkbox {
+    display: none; // Dölj checkboxen
+  }
+  
+  .questions__checkbox-label {
+    display: inline-block;
+    padding: .3125em .625em;
+    margin-right: .625rem;
+    margin-bottom: 1.25em;
+    background: $primary-color;
+    color: #fff;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-size: .875rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .questions__checkbox-label:hover{
+    background-color: #ff6a5f;
+  }
+  
+  // Ändra färg när checkboxen är markerad
+  .questions__checkbox:checked + .questions__checkbox-label {
+    background-color: #2ecc71; // Färg för markerad knapp
+    color: black;
+    font-weight: 700;
+  }
